@@ -16,7 +16,7 @@ COPY serposcope.conf /etc/serposcope.conf
 RUN chown serposcope:serposcope /var/log/serposcope /var/lib/serposcope/ /etc/serposcope.conf
 COPY entrypoint.sh /usr/local/bin/
 
-EXPOSE 7134
+EXPOSE 7135
 
 USER serposcope
 
